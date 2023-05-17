@@ -1,0 +1,1447 @@
+/*---------- RESET STYLE CSS ----------*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/* body {
+    width: 100% !important;
+} */
+
+/* -------------------------------------------------------------------------------- */
+/*---------- MAIN STYLE CSS ----------*/
+/*---------- HEADER STYLE CSS ----------*/
+.header__subtitle {
+    padding: 10px 0;
+
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.header__subtitle .subtitle__text p {
+    margin: 0;
+}
+
+.header__subtitle .subtitle__select .select__flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header__subtitle .subtitle__select .select__flex .select__flex_left {
+    margin-right: 20px;
+}
+
+.header__subtitle .subtitle__select .select__flex .btn__style {
+    border: none !important;
+}
+
+.header {
+    padding: 50px;
+}
+
+.logo .logo__flex {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo .logo__flex .flex__right .icon__style {
+    margin-right: 10px;
+    padding: 10px;
+
+    color: #fff;
+    font-size: 30px;
+
+    border-radius: 25px 0 25px 0;
+    background-color: #007ACC;
+}
+
+.logo .logo__flex .flex__left h1 {
+    margin: 0;
+
+    font-size: 30px;
+}
+
+.logo .logo__flex .flex__left div {
+    margin-top: 2px;
+
+    font-size: 11px;
+    font-weight: 700;
+    color: #808080;
+}
+
+.search__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__flex .search__left .search__style {
+    padding: 10px;
+
+    border: 1px solid #007ACC;
+    border-radius: 20px 0 0 20px;
+    box-shadow: none;
+}
+
+.search__flex .search__left .search__style::placeholder {
+    padding-left: 15px;
+
+    font-size: 15px;
+}
+
+.search__flex .search__right .btn__style {
+    padding: 10px 30px;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background: #007ACC;
+
+    transition: all 0.5s ease 0s;
+}
+
+.search__flex .search__right .btn__style:hover {
+    background: #0065a8;
+}
+
+.search__flex .search__right .btn__style:active {
+    background: #004d80;
+}
+
+.header .shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .shop .shop__logo {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+    color: #fff;
+
+    border-radius: 50%;
+    background-color: #007ACC;
+
+    position: relative;
+}
+
+.header .shop .shop__logo sup {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 11px;
+    color: #fff;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #007ACC;
+
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+.header .shop .shop__text .shop__text_cart {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header .shop .shop__text .shop__text_money {
+    font-size: 12px;
+}
+
+/*---------- NAV STYLE CSS ----------*/
+.nav {
+    background-color: #007ACC;
+
+    top: -0.1px !important;
+}
+
+.nav .nav__left {
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.nav .nav__left:hover {
+    background-color: #005b97;
+}
+
+.nav .nav__left .dropdown .drop-link__style {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff !important;
+
+    outline: none !important;
+    border: none !important;
+    background: none;
+}
+
+.nav .nav__left .dropdown .dropdown-menu__style {
+    width: 260px;
+
+    border: 1px solid #007ACC;
+}
+
+.nav .nav__left .dropdown .dropdown-menu__style .dropdown-item__style {
+    padding: 15px 30px !important;
+
+    font-size: 14px;
+}
+
+.nav .nav__center .home,
+.shop2,
+.blog,
+.pages,
+.about,
+.contact {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.nav .nav__center .home:hover,
+.shop2:hover,
+.blog:hover,
+.pages:hover,
+.about:hover,
+.contact:hover {
+    background-color: #005b97;
+}
+
+
+/*---------- CAROUSEL STYLE CSS ----------*/
+.carousel {
+    margin: 30px 0;
+}
+
+/*---------- DELIVERY STYLE CSS ----------*/
+.delivery {
+    margin: 0;
+    padding: 0;
+}
+
+.delivery .delivery__back {
+    background-color: #e7e7e7;
+}
+
+.delivery .delivery__back .delivery__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery .delivery__back .delivery__box .logo {
+    margin-right: 15px;
+}
+
+.delivery .delivery__back .delivery__box .logo .icon__style {
+    font-size: 35px;
+    color: #007ACC;
+}
+
+.delivery .delivery__back .delivery__box .text .text__top {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.delivery .delivery__back .delivery__box .text .text__bottom {
+    font-size: 11px;
+    color: #464646;
+}
+
+/*---------- CARD STYLE CSS ----------*/
+.card-style {
+    margin-top: 100px;
+}
+
+.card-style .card {
+    max-width: 288px;
+    margin: 0 5px;
+
+    border: none;
+
+    position: relative;
+}
+
+.card-style .card .mini__box {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+.card-style .card .mini__box.blue {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+
+    border-radius: 50% 50% 50% 0;
+    background-color: #007ACC;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-style .card .mini__box.grey {
+    background-color: rgb(179, 179, 179);
+
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card-style .card .mini__box.red {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+
+    border-radius: 50% 50% 50% 0;
+    background-color: #D13032;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card-style .card .mini__box.grey:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+.card-style .card .mini__box.grey:active {
+    background-color: rgb(134, 134, 134);
+}
+
+.card-style .card .card-body .card-text {
+    margin: 0;
+    margin: 15px 0;
+
+    font-weight: 500;
+    color: #006bb3;
+}
+
+.card-style .card .star {
+    display: flex;
+    align-items: center;
+}
+
+.card-style .card .star .star__style {
+    margin-right: 5px;
+}
+
+.card-style .card .star .star__style:last-child {
+    margin: 0;
+}
+
+.card-style .card .star .star__style .star__icon {
+    color: gold;
+
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.card-style .card .star .star__style .star__icon:hover {
+    color: rgb(230, 195, 0);
+}
+
+.card-style .card .star .star__style .star__icon:active {
+    color: rgb(209, 178, 0);
+}
+
+.card-style .card .price {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+    color: red;
+}
+
+.card-style .card .price .price__icon,
+.price__cash {
+    font-weight: 600;
+}
+
+/*---------- SIGN UP STYLE CSS ----------*/
+.sign-up {
+    padding: 25px 0;
+
+    background-color: #007ACC;
+}
+
+.sign-up .logo {
+    margin-right: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.sign-up .sign-up__right .sign-up__right_top {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.sign-up .sign-up__right .sign-up__right_bottom {
+    color: #fff;
+    font-size: 12px;
+}
+
+.sign-up .search__flex .search__left .search__style {
+    border-right: none;
+    box-shadow: none;
+}
+
+.sign-up .search__flex .search__right .btn__style {
+
+    font-size: 14px;
+
+    color: #000;
+
+    border-left: none;
+    background-color: #F4CA16;
+}
+
+.sign-up .search__flex .search__right .btn__style:hover {
+    background-color: #e0bb15;
+}
+
+.sign-up .search__flex .search__right .btn__style:active {
+    background-color: #c7a613;
+}
+
+/*---------- REACH STYLE CSS ----------*/
+.reach {
+    padding: 50px;
+}
+
+.reach .social .box {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-decoration: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reach .social .box.facebook {
+    background-color: #0F8BEA;
+}
+
+.reach .social .box.twitter {
+    background-color: #03A4EC;
+}
+
+.reach .social .box.youtube {
+    background-color: #F70000;
+}
+
+.reach .social .box.google-plus {
+    background-color: #D54C3F;
+}
+
+.reach .social .box.linkedin {
+    background-color: #0073B1;
+}
+
+/*---------- FOOTER STYLE CSS ----------*/
+.footer {
+    padding: 15px 0;
+}
+
+.footer .copy {
+    font-size: 14px;
+}
+
+.footer .pays {
+    font-size: 22px;
+}
+
+/*---------- RESPONSIVE STYLE CSS ----------*/
+@media (max-width: 1023px) {
+
+    /*---------- HEADER STYLE CSS ----------*/
+    .header .logo .logo__flex .flex__right .icon__style {
+        font-size: 28px;
+    }
+
+    .header .logo .logo__flex .flex__left h1 {
+        font-size: 28px;
+    }
+
+    .header .logo .logo__flex .flex__left div {
+        font-size: 10px;
+    }
+
+    .header .search__flex .search__right .btn__style {
+        padding: 10px 30px;
+
+        font-size: 14px;
+
+        border: 1px solid #007ACC;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /*---------- HEADER STYLE CSS ----------*/
+    .header__subtitle {
+        padding: 8px 0;
+    }
+
+    .header__subtitle .subtitle__text p {
+        font-size: 13px;
+    }
+
+    .header {
+        padding: 30px 0;
+    }
+
+    .header .logo .logo__flex .flex__right .icon__style {
+        font-size: 19px;
+
+        border-radius: 20px 0 20px 0;
+    }
+
+    .header .logo .logo__flex .flex__left h1 {
+        font-size: 22px;
+    }
+
+    .header .logo .logo__flex .flex__left div {
+        font-size: 8px;
+    }
+
+    .header .search__flex .search__left .search__style {
+        padding: 8px;
+    }
+
+    .header .search__flex .search__left .search__style::placeholder {
+        font-size: 14px;
+    }
+
+    .header .search__flex .search__right .btn__style {
+        padding: 8px 30px;
+
+        font-size: 14px;
+
+        border: 1px solid #007ACC;
+    }
+
+    .header .shop .shop__logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .header .shop .shop__logo sup {
+        width: 20px;
+        height: 20px;
+
+        font-size: 10px;
+
+        position: absolute;
+        top: -7px;
+        right: -7px;
+    }
+
+    .header .shop .shop__text .shop__text_cart {
+        font-size: 14px;
+    }
+
+    .header .shop .shop__text .shop__text_money {
+        font-size: 11px;
+    }
+
+    /*---------- NAV STYLE CSS ----------*/
+    .nav .nav__left .dropdown .drop-link__style {
+        padding: 16px 0;
+
+        font-size: 16px;
+    }
+
+    .nav .nav__center .home,
+    .shop2,
+    .blog,
+    .pages,
+    .about,
+    .contact {
+        font-size: 13px;
+    }
+
+    /*---------- CAROUSEL STYLE CSS ----------*/
+    .carousel {
+        margin: 15px 0;
+    }
+
+    /*---------- DELIVERY STYLE CSS ----------*/
+    .delivery .delivery__back .delivery__box .logo .icon__style {
+        font-size: 30px;
+    }
+
+    .delivery .delivery__back .delivery__box .text .text__top {
+        font-size: 13px;
+    }
+
+    .delivery .delivery__back .delivery__box .text .text__bottom {
+        font-size: 9px;
+    }
+
+    /*---------- CARD STYLE CSS ----------*/
+    .card-style {
+        margin-top: 45px;
+    }
+
+    .card-style .card {
+        max-width: 200px;
+        margin: 0 5px;
+    }
+
+    .card-style .card .mini__box {
+        width: 28px;
+        height: 28px;
+    }
+
+    .card-style .card .mini__box.blue {
+        font-size: 10px;
+    }
+
+    .card-style .card .mini__box.grey {
+        font-size: 12px;
+    }
+
+    .card-style .card .mini__box.red {
+        font-size: 9px;
+    }
+
+    .card-style .card .card-body .card-text {
+        margin: 12px 0;
+
+        font-size: 13px;
+    }
+
+    .card-style .card .star .star__style .star__icon {
+        font-size: 13px;
+    }
+
+
+    .card-style .card .price {
+        margin-top: 12px;
+    }
+
+    .card-style .card .price .price__icon,
+    .price__cash {
+        font-size: 13px;
+    }
+
+    /*---------- SIGN UP STYLE CSS ----------*/
+    .sign-up {
+        padding: 15px 0;
+    }
+
+    .sign-up .logo {
+        margin-right: 15px;
+        font-size: 35px;
+    }
+
+    .sign-up .sign-up__right .sign-up__right_top {
+        font-size: 20px;
+    }
+
+    .sign-up .sign-up__right .sign-up__right_bottom {
+        font-size: 10px;
+    }
+
+    .sign-up .search__flex .search__left .search__style {
+        padding: 4px 0;
+    }
+
+    .sign-up .search__flex .search__left .search__style::placeholder {
+        font-size: 12px;
+    }
+
+    .sign-up .search__flex .search__right .btn__style {
+        padding: 5px 20px;
+
+        font-size: 10px;
+
+        border: 2px solid #F4CA16;
+    }
+
+    /*---------- REACH STYLE CSS ----------*/
+    .reach {
+        padding: 30px;
+    }
+
+    .reach .logo .logo__flex .flex__right .icon__style {
+        font-size: 19px;
+
+        border-radius: 20px 0 20px 0;
+    }
+
+    .reach .logo .logo__flex .flex__left h1 {
+        font-size: 22px;
+    }
+
+    .reach .logo .logo__flex .flex__left div {
+        font-size: 8px;
+    }
+
+    .reach .text {
+        font-size: 12px;
+    }
+
+    .reach .place {
+        font-size: 12px;
+    }
+
+    .reach h2 {
+        font-size: 22px;
+    }
+
+    .reach .inp {
+        padding: 2px 10px;
+    }
+
+    .reach .bt {
+        padding: 3px 10px;
+    }
+
+    .reach .social .box {
+        width: 28px;
+        height: 28px;
+    }
+
+    /*---------- FOOTER STYLE CSS ----------*/
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer .copy {
+        font-size: 12px;
+    }
+
+    .footer .pays {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*---------- HEADER STYLE CSS ----------*/
+    .header__subtitle {
+        padding: 5px 0;
+    }
+
+    .header__subtitle .subtitle__text p,
+    .header__subtitle .subtitle__select .select__flex .select__flex_left .btn-group .btn__style,
+    .header__subtitle .subtitle__select .select__flex .select__flex_right .btn__style {
+        font-size: 12px;
+    }
+
+    .header {
+        padding: 17px 0;
+    }
+
+    .header .logo .logo__flex .flex__right .icon__style {
+        font-size: 17px;
+
+        border-radius: 17px 0 17px 0;
+    }
+
+    .header .logo .logo__flex .flex__left h1 {
+        font-size: 20px;
+    }
+
+    .header .logo .logo__flex .flex__left div {
+        font-size: 7px;
+    }
+
+    .header .shop .shop__logo {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .header .shop .shop__logo sup {
+        width: 16px;
+        height: 16px;
+
+        font-size: 10px;
+
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+
+    .header .shop .shop__text .shop__text_cart {
+        font-size: 12px;
+    }
+
+    .header .shop .shop__text .shop__text_money {
+        font-size: 9px;
+    }
+
+    /*---------- NAV STYLE CSS ----------*/
+
+    .nav .nav__left .dropdown .drop-link__style {
+        padding: 13px 0;
+
+        font-size: 14px;
+    }
+
+    /*---------- CAROUSEL STYLE CSS ----------*/
+    .carousel {
+        margin: 13px 0;
+    }
+
+    /*---------- DELIVERY STYLE CSS ----------*/
+    .delivery .delivery__back .delivery__box .logo .icon__style {
+        font-size: 28px;
+    }
+
+    .delivery .delivery__back .delivery__box .text .text__top {
+        font-size: 12px;
+    }
+
+    .delivery .delivery__back .delivery__box .text .text__bottom {
+        font-size: 8px;
+    }
+
+    /*---------- CARD STYLE CSS ----------*/
+    .card-style {
+        margin-top: 30px;
+    }
+
+    .card-style .card {
+        max-width: 170px;
+        margin: 0 5px;
+    }
+
+    .card-style .card .mini__box {
+        width: 25px;
+        height: 25px;
+    }
+
+    .card-style .card .mini__box.blue {
+        font-size: 8px;
+    }
+
+    .card-style .card .mini__box.grey {
+        font-size: 10px;
+    }
+
+    .card-style .card .mini__box.red {
+        font-size: 8px;
+    }
+
+    .card-style .card .card-body .card-text {
+        margin: 10px 0;
+
+        font-size: 11px;
+    }
+
+    .card-style .card .star .star__style .star__icon {
+        font-size: 11px;
+    }
+
+    .card-style .card .price {
+        margin-top: 10px;
+    }
+
+    .card-style .card .price .price__icon,
+    .card-style .card .price .price__cash {
+        font-size: 11px;
+    }
+
+    /*---------- SIGN UP STYLE CSS ----------*/
+    .sign-up {
+        padding: 12px 0;
+    }
+
+    .sign-up .logo {
+        margin-right: 15px;
+        font-size: 28px;
+    }
+
+    .sign-up .sign-up__right .sign-up__right_top {
+        font-size: 14px;
+    }
+
+    .sign-up .sign-up__right .sign-up__right_bottom {
+        font-size: 8px;
+    }
+
+    .sign-up .search__flex .search__left .search__style {
+        padding: 1px 0;
+    }
+
+    .sign-up .search__flex .search__left .search__style::placeholder {
+        font-size: 10px;
+    }
+
+    .sign-up .search__flex .search__right .btn__style {
+        padding: 2px 10px;
+
+        font-size: 10px;
+    }
+
+    /*---------- REACH STYLE CSS ----------*/
+
+    .reach {
+        padding: 20px;
+    }
+
+    .reach .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reach .logo .logo__flex .flex__right {
+        margin-right: 10px;
+    }
+
+    .reach .logo .logo__flex .flex__right .icon__style {
+        font-size: 17px;
+
+        border-radius: 17px 0 17px 0;
+    }
+
+    .reach .logo .logo__flex .flex__left h1 {
+        font-size: 20px;
+    }
+
+    .reach .logo .logo__flex .flex__left div {
+        font-size: 7px;
+    }
+
+    .reach .text,
+    .reach .place {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 10px;
+
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .reach .social {
+        max-width: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+
+    .reach .social .box {
+        width: 20px;
+        height: 20px;
+
+        font-size: 10px
+    }
+
+    .reach h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .reach .inp {
+        padding: 2px 10px;
+    }
+
+    .reach .bt {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 2px 5px;
+    }
+
+    /*---------- FOOTER STYLE CSS ----------*/
+    .footer {
+        padding: 8px 0;
+    }
+
+    .footer .copy {
+        font-size: 10px;
+    }
+
+    .footer .pays {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    body,
+    main {
+        width: 100% !important;
+    }
+
+    .header__subtitle {
+        padding: 2px 0;
+    }
+
+    .header__subtitle .subtitle__text p,
+    .header__subtitle .subtitle__select .select__flex .select__flex_left .btn-group .btn__style,
+    .header__subtitle .subtitle__select .select__flex .select__flex_right .btn__style {
+        font-size: 10px;
+    }
+
+    .header {
+        padding: 13px 0;
+    }
+
+    .header .logo .logo__flex .flex__right .icon__style {
+        font-size: 14px;
+
+        border-radius: 14px 0 14px 0;
+    }
+
+    .header .logo .logo__flex .flex__left h1 {
+        font-size: 18px;
+    }
+
+    .header .logo .logo__flex .flex__left div {
+        font-size: 5px;
+    }
+
+    .header .shop .shop__logo {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .header .shop .shop__logo sup {
+        width: 14px;
+        height: 14px;
+
+        font-size: 8px;
+
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+
+    .header .shop .shop__text .shop__text_cart {
+        font-size: 10px;
+    }
+
+    .header .shop .shop__text .shop__text_money {
+        font-size: 7px;
+    }
+
+    /*---------- NAV STYLE CSS ----------*/
+    .nav .nav__left .dropdown .drop-link__style {
+        padding: 10px 0;
+
+        font-size: 12px;
+    }
+
+    /*---------- CAROUSEL STYLE CSS ----------*/
+    .carousel {
+        margin: 10px 0;
+    }
+
+    /*---------- DELIVERY STYLE CSS ----------*/
+    .delivery .delivery__back .delivery__box .logo {
+        margin-right: 5px;
+    }
+
+    .delivery .delivery__back .delivery__box .logo .icon__style {
+        font-size: 24px;
+    }
+
+    .delivery .delivery__back .delivery__box .text .text__top {
+        font-size: 9px;
+    }
+
+    .delivery .delivery__back .delivery__box .text .text__bottom {
+        font-size: 6px;
+    }
+
+    /*---------- CARD STYLE CSS ----------*/
+    .card-style {
+        margin-top: 15px;
+    }
+
+    .card-style .card {
+        max-width: 140px;
+        margin: 0 5px;
+    }
+
+    .card-style .card .mini__box {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-style .card .mini__box.blue {
+        font-size: 6px;
+    }
+
+    .card-style .card .mini__box.grey {
+        font-size: 8px;
+    }
+
+    .card-style .card .mini__box.red {
+        font-size: 6px;
+    }
+
+    .card-style .card .card-body {
+        padding: 10px;
+    }
+
+    .card-style .card .card-body .card-text {
+        margin: 8px 0;
+
+        font-size: 9px;
+    }
+
+    .card-style .card .star .star__style .star__icon {
+        font-size: 9px;
+    }
+
+    .card-style .card .price {
+        margin-top: 8px;
+    }
+
+    .card-style .card .price .price__icon,
+    .card-style .card .price .price__cash {
+        font-size: 9px;
+    }
+
+    /*---------- SIGN UP STYLE CSS ----------*/
+    .sign-up {
+        padding: 10px 0;
+    }
+
+    .sign-up .logo {
+        margin-right: 15px;
+        font-size: 25px;
+    }
+
+    .sign-up .sign-up__right .sign-up__right_top {
+        font-size: 12px;
+    }
+
+    .sign-up .sign-up__right .sign-up__right_bottom {
+        font-size: 6px;
+    }
+
+    .sign-up .search__flex .search__left .search__style {
+        padding: 1px 0;
+    }
+
+    .sign-up .search__flex .search__left .search__style::placeholder {
+        font-size: 8px;
+    }
+
+    .sign-up .search__flex .search__right .btn__style {
+        padding: 2px 10px;
+
+        font-size: 10px;
+    }
+
+    /*---------- REACH STYLE CSS ----------*/
+    .reach {
+        padding: 15px;
+    }
+
+
+
+    .reach .logo .logo__flex .flex__right {
+        margin-right: 5px;
+    }
+
+    .reach .logo .logo__flex .flex__right .icon__style {
+        font-size: 14px;
+
+        border-radius: 14px 0 14px 0;
+    }
+
+    .reach .logo .logo__flex .flex__left h1 {
+        font-size: 18px;
+    }
+
+    .reach .logo .logo__flex .flex__left div {
+        font-size: 5px;
+    }
+
+    .reach .text,
+    .reach .place {
+        max-width: 240px;
+        margin: 0 auto;
+        margin-top: 10px;
+
+        font-size: 9px;
+    }
+
+    .reach .social {
+        max-width: 120px;
+    }
+
+    .reach .social .box {
+        width: 18px;
+        height: 18px;
+
+        font-size: 8px
+    }
+
+    .reach h2 {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .reach .inp {
+        margin-top: 10px !important;
+        padding: 1px 5px;
+    }
+
+
+    .reach .inp::placeholder,
+    .reach .bt::placeholder {
+        font-size: 11px
+    }
+
+    .reach .bt {
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 10px !important;
+        padding: 1px 5px;
+
+        font-size: 11px;
+    }
+
+    /*---------- FOOTER STYLE CSS ----------*/
+    .footer {
+        padding: 5px 0;
+    }
+
+    .footer .copy {
+        font-size: 8px;
+    }
+
+    .footer .pays {
+        font-size: 12px;
+    }
+}
+
+/*---------- DROPDOWN STYLE CSS ----------*/
+@media (max-width: 1199px) {
+    .nav .nav__left .dropdown .dropdown-menu__style {
+        width: 220px;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style .dropdown-item__style {
+        padding: 12px 25px !important;
+
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav .nav__left .dropdown {
+        position: relative !important;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style {
+        width: 200px;
+
+        position: absolute !important;
+        top: 2px !important;
+        left: -18px !important;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style .dropdown-item__style {
+        padding: 10px 20px !important;
+
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav .nav__left .dropdown {
+        position: relative !important;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style {
+        width: 150px;
+
+        position: absolute !important;
+        top: 1px !important;
+        left: -18px !important;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style .dropdown-item__style {
+        padding: 10px 15px !important;
+
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav .nav__left .dropdown {
+        position: relative !important;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style {
+        width: 140px;
+
+        position: absolute !important;
+        top: 1px !important;
+        left: -9px !important;
+    }
+
+    .nav .nav__left .dropdown .dropdown-menu__style .dropdown-item__style {
+        padding: 10px 15px !important;
+
+        font-size: 9px;
+    }
+}
+
+/*-------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+    .nav .nav__right .dropdown {
+        position: relative !important;
+    }
+
+    .nav .nav__right .dropdown .bars__style {
+        color: #fff;
+    }
+
+    .nav .nav__right .dropdown .bars-menu__style {
+        width: 153px !important;
+        padding: 5px 5px !important;
+
+        font-size: 12px;
+
+        position: absolute !important;
+        top: 8px !important;
+        right: 0px !important;
+
+        border: 1px solid #007ACC;
+    }
+}

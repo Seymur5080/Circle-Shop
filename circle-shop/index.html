@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-r</title>
+    <link rel="stylesheet" href="css/iconsfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- col-md-4 -->
+    <!-- col-md-5  -->
+    <!-- col-md-2 offset-1  -->
+    <!-- col-md-6  -->
+    <!-- col-md-6  -->
+
+<body>
+    <main>
+        <!---------- HEADER ---------->
+        <div class="header__subtitle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex align-items-center">
+                        <div class="subtitle__text">
+                            <p>Customer Service: (800) 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="subtitle__select">
+                            <div class="select__flex">
+                                <div class="select__flex_left">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm dropdown-toggle btn__style"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            English
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                            <li><a class="dropdown-item" href="#">Russian</a></li>
+                                            <li><a class="dropdown-item" href="#">Turkey</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <select name="" id="">
+                                        <option value="en">English</option>
+                                        <option value="az">Azerbaijan</option>
+                                        <option value="ru">Russian</option>
+                                    </select> -->
+                                </div>
+                                <div class="select__flex_right">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm dropdown-toggle btn__style"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            My Account
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Test</a></li>
+                                            <li><a class="dropdown-item" href="#">Test</a></li>
+                                            <li><a class="dropdown-item" href="#">Test</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <select name="" id="">
+                                        <option value="acc">My Account</option>
+                                        <option value="acc">My Account</option>
+                                        <option value="acc">My Account</option>
+                                    </select> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="logo">
+                            <div class="logo__flex">
+                                <div class="flex__right">
+                                    <i class="fa-sharp fa-solid fa-blog icon__style"></i>
+                                </div>
+                                <div class="flex__left">
+                                    <h1>Circle shop</h1>
+                                    <div>Creative Digital Online Store</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-0 d-none col-md-6 col-lg-6 d-md-flex align-items-center">
+                        <div class="col-12 search__flex">
+                            <div class="col-md-10 col-lg-11 search__left">
+                                <input class="form-control search__style" type="text"
+                                    placeholder="Enter your search key..." name="search">
+                            </div>
+                            <div class="col-md-2 col-lg-1 search__right">
+                                <button class="btn btn-success btn__style">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 col-md-3 offset-md-0 col-lg-2 offset-lg-1 d-flex justify-content-end align-items-center">
+                        <div class="shop">
+                            <div class="shop__logo">
+                                <i class="fa-solid fa-cart-shopping"></i><sup>2</sup>
+                            </div>
+                            <div class="shop__text">
+                                <div class="shop__text_cart">My Cart</div>
+                                <div class="shop__text_money">
+                                    <i class="fa-regular fa-dollar-sign"></i> 200.000
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!---------- NAV ---------->
+        <nav class="nav sticky-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 col-md-3 col-lg-3 nav__left">
+                        <div class="dropdown">
+                            <a class="btn drop-link__style" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                All Categories
+                            </a>
+                            <ul class="dropdown-menu p-0 dropdown-menu__style">
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Computer-Laptop</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Electronics</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Toys & Hobbies</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Sports & Outdoors</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Smartphone & Tablets</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Health & Beauth</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Computers & Networking</a>
+                                </li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Accessories</a></li>
+                                <li><a class="dropdown-item dropdown-item__style" href="#">Jewelry & Watches</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="col-0 d-none col-md-9 col-lg-7 d-md-flex justify-content-between align-items-center nav__center">
+                        <div class="home">Home</div>
+                        <div class="shop2">Shop</div>
+                        <div class="blog">Blog</div>
+                        <div class="pages">Pages</div>
+                        <div class="about">About Us</div>
+                        <div class="contact">Contact Us</div>
+                    </div>
+                    <div
+                        class="col-sm-6 offset-sm-3 d-sm-flex justify-content-sm-end align-items-sm-center col-md-0 d-md-none col-lg-2 nav__right">
+                        <div class="dropdown">
+                            <a class="btn drop-link__style" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-bars bars__style"></i>
+                            </a>
+                            <ul class="dropdown-menu p-0 bars-menu__style">
+                                <li><a class="dropdown-item bars-item__style" href="#">Home</a></li>
+                                <li><a class="dropdown-item bars-item__style" href="#">Shop</a></li>
+                                <li><a class="dropdown-item bars-item__style" href="#">Blog</a></li>
+                                <li><a class="dropdown-item bars-item__style" href="#">Pages</a></li>
+                                <li><a class="dropdown-item bars-item__style" href="#">About Us</a></li>
+                                <li><a class="dropdown-item bars-item__style" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!---------- CAROUSEL ---------->
+        <div class="carousel m-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-0 col-lg-3"></div>
+                    <div class="col-12 col-lg-9 p-0">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel__style mb-0">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/carousel-foto.jpg" style="width: 100%;" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/carousel-foto.jpg" style="width: 100%;" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/carousel-foto.jpg" style="width: 100%;" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------- DELIVERY ---------->
+        <div class="delivery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-0 col-lg-3"></div>
+                    <div class="col-12 col-lg-9 delivery__back">
+                        <div class="row pt-4 pb-4">
+                            <div class="col-4">
+                                <div class="delivery__box">
+                                    <div class="logo">
+                                        <i class="fa-solid fa-truck-ramp-box icon__style"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="text__top">Free Delivery</div>
+                                        <div class="text__bottom">Free shipping on all order</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="delivery__box">
+                                    <div class="logo">
+                                        <i class="fa-solid fa-headset icon__style"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="text__top">Online Support 24/7</div>
+                                        <div class="text__bottom">Free shipping on all order</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="delivery__box">
+                                    <div class="logo">
+                                        <i class="fa-solid fa-sack-dollar icon__style"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="text__top">Money Return</div>
+                                        <div class="text__bottom">Free shipping on all order</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------- CARD ---------->
+        <div class="card-style">
+            <div class="container">
+                <div class="row border-top pt-sm-3 pb-sm-3 pt-md-4 pb-md-4 pt-lg-5 pb-lg-5">
+                    <div class="col-12 d-flex flex-wrap flex-lg-nowrap p-0">
+                        <div class="card mt-2 mb-2 mt-lg-0 mb-lg-0">
+                            <div class=" mini__box blue">New</div>
+                            <img src="img/carousel-foto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Natus erro at congue massa commodo sit dignissim
+                                </p>
+                                <div class="star">
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="me-1"><i class="fa-solid fa-dollar-sign price__icon"></i></div>
+                                    <div class="price__cash">30.00</div>
+                                </div>
+                                <div class="mini__box grey"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                            </div>
+                        </div>
+                        <div class="card mt-2 mb-2 mt-lg-0 mb-lg-0">
+                            <div class="mini__box blue">New</div>
+                            <img src="img/carousel-foto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Natus erro at congue massa commodo sit dignissim
+                                </p>
+                                <div class="star">
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="me-1"><i class="fa-solid fa-dollar-sign price__icon"></i></div>
+                                    <div class="price__cash">30.00</div>
+                                </div>
+                                <div class="mini__box grey"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                            </div>
+                        </div>
+                        <div class="card mt-2 mb-2 mt-lg-0 mb-lg-0">
+                            <img src="img/carousel-foto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Natus erro at congue massa commodo sit dignissim
+                                </p>
+                                <div class="star">
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="me-1"><i class="fa-solid fa-dollar-sign price__icon"></i></div>
+                                    <div class="price__cash">30.00</div>
+                                </div>
+                                <div class="mini__box grey"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                            </div>
+                        </div>
+                        <div class="card mt-2 mb-2 mt-lg-0 mb-lg-0">
+                            <div class="mini__box blue">New</div>
+                            <div class="mini__box red">New</div>
+                            <img src="img/carousel-foto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Natus erro at congue massa commodo sit dignissim
+                                </p>
+                                <div class="star">
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="me-1"><i class="fa-solid fa-dollar-sign price__icon"></i></div>
+                                    <div class="price__cash">30.00</div>
+                                </div>
+                                <div class="mini__box grey"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                            </div>
+                        </div>
+                        <div class="card mt-2 mb-2 mt-lg-0 mb-lg-0">
+                            <img src="img/carousel-foto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Natus erro at congue massa commodo sit dignissim
+                                </p>
+                                <div class="star">
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                    <div class="star__style">
+                                        <i class="fa-solid fa-star star__icon"></i>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="me-1"><i class="fa-solid fa-dollar-sign price__icon"></i></div>
+                                    <div class="price__cash">30.00</div>
+                                </div>
+                                <div class="mini__box grey"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------- SIGN UP ---------->
+        <div class="sign-up">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-12 justify-content-center col-md-6 justify-content-md-center col-xl-5 d-flex align-items-center">
+                        <div class="logo"><i class="fa-regular fa-envelope-open"></i></div>
+                        <div class="sign-up__right">
+                            <div class="sign-up__right_top">Sign Up For Our Newsletter</div>
+                            <div class="sign-up__right_bottom">Get e-mail updates about our lates shop and special
+                                offers.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3 col-md-6 mt-md-0 col-xl-7 d-flex justify-content-start align-items-center">
+                        <div class="col-12 search__flex">
+                            <div class="col-6 offset-2 col-md-9 col-lg-8 search__left">
+                                <input class="form-control search__style" type="text" placeholder="Enter your email"
+                                    name="search">
+                            </div>
+                            <div class="col-4 col-md-3 col-lg-4 search__right">
+                                <button class="btn btn-success btn__style">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------- REACH ---------->
+        <div class="reach">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 col-lg-4">
+                        <div class="logo">
+                            <div class="logo__flex">
+                                <div class="flex__right">
+                                    <i class="fa-sharp fa-solid fa-blog icon__style"></i>
+                                </div>
+                                <div class="flex__left">
+                                    <h1>Circle shop</h1>
+                                    <div>Creative Digital Online Store</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text mt-md-4 mt-lg-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In est, beataeeos
+                            neque unde tempore commodi adipisci perspiciatis, sapiente a quibusdam dolor recusandae.
+                        </div>
+                        <div class="place mt-md-3 mt-lg-4">
+                            <div><span class="fw-semibold me-1">Address:</span>123 Main Street, Anytown CA 12345 USA.
+                            </div>
+                            <div><span class="fw-semibold me-1">Number Phone:</span>(800) 123 456 - (800) 123 456.</div>
+                            <div><span class="fw-semibold me-1">Addres Email:</span>support@circleshop.com</div>
+                        </div>
+                        <div class="social d-flex align-items-center mt-md-4 mt-lg-5">
+                            <a href="https://www.facebook.com/" target="_blank" class="box facebook me-md-3 me-lg-4"><i
+                                    class="fa-brands fa-facebook-f icon_style"></i></a>
+                            <a href="https://twitter.com/" target="_blank" class="box twitter me-md-3 me-lg-4"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank" class="box youtube me-md-3 me-lg-4"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.google.com/" target="_blank" class="box google-plus me-md-3 me-lg-4"><i
+                                    class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank" class="box linkedin me-md-3 me-lg-4"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-8">
+                        <div class="col-6 offset-3">
+                            <h2 class="text-center">Contact us</h2>
+                            <form action="#" method="POST" class="mt-3">
+                                <input type="text" placeholder="Name" class="form-control inp">
+                                <input type="email" placeholder="Email" class="form-control mt-3 inp">
+                                <button class="btn btn-success mt-3 bt">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------- FOOTER ---------->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-5 d-flex align-items-center">
+                        <div class="copy">Copyright &copy 2022 Circleshop. All Right Reserved</div>
+                    </div>
+                    <div class="col-6 col-lg-6 d-flex justify-content-between align-items-center">
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div class="pays">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                    </div>
+                    <div class="col-0 col-lg-1"></div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    </head>
+</body>
+
+</html>
+<!-- <select class="form-select select__style" name="categories" id="">
+    <option value="all">All Categories</option>
+    <option value="computer">Computer-Laptop</option>
+    <option value="elctronics">Electronics</option>
+    <option value="toys">Toys & Hobbies</option>
+    <option value="sports">Sports & Outdoors</option>
+    <option value="smartphone">Smartphone & Tablets</option>
+    <option value="health">Health & Beauth</option>
+    <option value="computers">Computers & Networking</option>
+    <option value="accessories">Accessories</option>
+    <option value="jewelry">Jewelry & Watches</option>
+</select> -->
